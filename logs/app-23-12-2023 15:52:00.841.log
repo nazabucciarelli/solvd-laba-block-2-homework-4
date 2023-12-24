@@ -1,0 +1,22 @@
+2023-12-23 15:52:01,544 DEBUG o.a.i.l.LogFactory [main] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-12-23 15:52:01,555 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:52:01,556 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:52:01,556 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:52:01,556 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:52:01,655 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 15:52:01,672 DEBUG o.a.i.d.p.PooledDataSource [main] Created connection 322830747.
+2023-12-23 15:52:01,674 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT id, name, zoos_id FROM departments WHERE id = 13
+2023-12-23 15:52:01,697 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 15:52:01,716 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==      Total: 1
+2023-12-23 15:52:01,719 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@133e019b]
+2023-12-23 15:52:01,719 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 322830747 to pool.
+2023-12-23 15:52:01,721 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 15:52:01,721 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 322830747 from pool.
+2023-12-23 15:52:01,721 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT id, name, capacity, zoos_id FROM animal_rooms WHERE id = 9
+2023-12-23 15:52:01,722 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 15:52:01,726 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==      Total: 1
+2023-12-23 15:52:01,726 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@133e019b]
+2023-12-23 15:52:01,727 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 322830747 to pool.
+2023-12-23 15:52:01,730 INFO c.s.a.Main [main] Department{id=13, name='Logic Department', zooId=8}
+2023-12-23 15:52:01,732 INFO c.s.a.Main [main] AnimalRoom{id=9, name='Aquatic', capacity=200}
+2023-12-23 15:52:01,733 INFO c.s.a.Main [main] 5

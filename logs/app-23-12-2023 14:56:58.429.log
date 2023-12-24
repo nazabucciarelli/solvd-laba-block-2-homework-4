@@ -1,0 +1,16 @@
+2023-12-23 14:56:59,063 DEBUG o.a.i.l.LogFactory [main] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-12-23 14:56:59,073 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 14:56:59,074 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 14:56:59,074 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 14:56:59,074 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 14:56:59,159 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 14:56:59,176 DEBUG o.a.i.d.p.PooledDataSource [main] Created connection 1660451908.
+2023-12-23 14:56:59,177 DEBUG o.a.i.t.j.JdbcTransaction [main] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 14:56:59,182 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO animal_rooms(name,capacity,zoos_id) VALUES (?, ?, ?)
+2023-12-23 14:56:59,210 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: Amphibians(String), 300(Integer), 4(Long)
+2023-12-23 14:56:59,213 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==    Updates: 1
+2023-12-23 14:56:59,223 DEBUG o.a.i.t.j.JdbcTransaction [main] Rolling back JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 14:56:59,226 DEBUG o.a.i.t.j.JdbcTransaction [main] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 14:56:59,226 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 14:56:59,227 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 14:56:59,228 INFO c.s.a.Main [main] 5

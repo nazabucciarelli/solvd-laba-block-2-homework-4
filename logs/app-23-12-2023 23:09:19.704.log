@@ -1,0 +1,100 @@
+2023-12-23 23:09:20,439 DEBUG o.a.i.l.LogFactory [main] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-12-23 23:09:20,449 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 23:09:20,449 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 23:09:20,449 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 23:09:20,450 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 23:09:20,540 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,556 DEBUG o.a.i.d.p.PooledDataSource [main] Created connection 1660451908.
+2023-12-23 23:09:20,559 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO zoos(name,customers_capacity) VALUES (?,?)
+2023-12-23 23:09:20,595 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: California Zoo(String), 450(Integer)
+2023-12-23 23:09:20,600 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==    Updates: 1
+2023-12-23 23:09:20,608 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,608 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,610 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,610 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,611 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO animal_rooms(name,capacity,zoos_id) VALUES (?, ?, ?)
+2023-12-23 23:09:20,613 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: Aquatic(String), 200(Integer), 3(Long)
+2023-12-23 23:09:20,616 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==    Updates: 1
+2023-12-23 23:09:20,617 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,617 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,619 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,619 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,619 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO departments(name,zoos_id) VALUES (?, ?)
+2023-12-23 23:09:20,620 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: Logic Department(String), 3(Long)
+2023-12-23 23:09:20,623 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==    Updates: 1
+2023-12-23 23:09:20,624 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,624 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,624 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,625 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,625 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO animal_rooms(name,capacity,zoos_id) VALUES (?, ?, ?)
+2023-12-23 23:09:20,625 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: Birds(String), 50(Integer), 3(Long)
+2023-12-23 23:09:20,628 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==    Updates: 1
+2023-12-23 23:09:20,630 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,630 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,630 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,630 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,631 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO animal_rooms(name,capacity,zoos_id) VALUES (?, ?, ?)
+2023-12-23 23:09:20,631 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: Felines(String), 10(Integer), 3(Long)
+2023-12-23 23:09:20,635 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==    Updates: 1
+2023-12-23 23:09:20,636 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,636 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,636 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,636 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,637 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO departments(name,zoos_id) VALUES (?, ?)
+2023-12-23 23:09:20,637 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: HR Department(String), 3(Long)
+2023-12-23 23:09:20,641 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==    Updates: 1
+2023-12-23 23:09:20,641 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,642 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,652 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,652 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,652 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT id, name, zoos_id FROM departments WHERE id = 5
+2023-12-23 23:09:20,653 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 23:09:20,667 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==      Total: 1
+2023-12-23 23:09:20,669 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,670 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,670 INFO c.s.a.s.DepartmentService [main] The animal rooms within the same zoo as the department are:
+2023-12-23 23:09:20,671 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,671 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,672 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT id, name, capacity, zoos_id FROM animal_rooms
+2023-12-23 23:09:20,672 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 23:09:20,677 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==      Total: 3
+2023-12-23 23:09:20,677 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,677 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,682 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{id=4, name='Aquatic', capacity=200}
+2023-12-23 23:09:20,683 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{id=5, name='Birds', capacity=50}
+2023-12-23 23:09:20,683 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{id=6, name='Felines', capacity=10}
+2023-12-23 23:09:20,683 INFO c.s.a.s.AnimalRoomService [main] The animal rooms with capacity over 100 are:
+2023-12-23 23:09:20,684 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,684 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,684 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT id, name, capacity, zoos_id FROM animal_rooms
+2023-12-23 23:09:20,684 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 23:09:20,686 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==      Total: 3
+2023-12-23 23:09:20,686 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,687 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,687 INFO j.u.s.ReferencePipeline$15$1 [main] AnimalRoom{id=4, name='Aquatic', capacity=200}
+2023-12-23 23:09:20,688 INFO c.s.a.s.ZooService [main] Departments from the zoo with id 3
+2023-12-23 23:09:20,688 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,688 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,689 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT id, name, zoos_id FROM departments
+2023-12-23 23:09:20,689 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 23:09:20,690 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==      Total: 2
+2023-12-23 23:09:20,691 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,691 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,693 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] Department{id=4, name='Logic Department', zooId=3}
+2023-12-23 23:09:20,694 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] Department{id=5, name='HR Department', zooId=3}
+2023-12-23 23:09:20,694 INFO c.s.a.s.ZooService [main] Animal rooms from the zoo with id 3
+2023-12-23 23:09:20,694 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,695 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,695 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT id, name, capacity, zoos_id FROM animal_rooms
+2023-12-23 23:09:20,695 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 23:09:20,696 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==      Total: 3
+2023-12-23 23:09:20,697 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,697 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 23:09:20,698 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] AnimalRoom{id=4, name='Aquatic', capacity=200}
+2023-12-23 23:09:20,698 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] AnimalRoom{id=5, name='Birds', capacity=50}
+2023-12-23 23:09:20,699 INFO j.u.s.ForEachOps$ForEachOp$OfRef [main] AnimalRoom{id=6, name='Felines', capacity=10}
+2023-12-23 23:09:20,701 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 23:09:20,701 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 23:09:20,702 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: UPDATE zoos AS z SET name = ?, customers_capacity = ? WHERE z.id = ?
+2023-12-23 23:09:20,703 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 23:09:20,703 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.

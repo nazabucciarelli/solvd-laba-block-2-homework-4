@@ -1,0 +1,18 @@
+2023-12-23 15:07:40,916 DEBUG o.a.i.l.LogFactory [main] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-12-23 15:07:40,924 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:07:40,924 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:07:40,925 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:07:40,925 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:07:41,012 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 15:07:41,029 DEBUG o.a.i.d.p.PooledDataSource [main] Created connection 1660451908.
+2023-12-23 15:07:41,031 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO zoos(name,customers_capacity) VALUES (?,?)
+2023-12-23 15:07:41,059 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: California Zoo(String), 450(Integer)
+2023-12-23 15:07:41,065 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==    Updates: 1
+2023-12-23 15:07:41,071 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 15:07:41,072 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.
+2023-12-23 15:07:41,073 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 15:07:41,073 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1660451908 from pool.
+2023-12-23 15:07:41,074 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO animal_rooms(name,capacity,zoos_id) VALUES (?, ?, ?)
+2023-12-23 15:07:41,076 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: Aquatic(String), 200(Integer), 1(Long)
+2023-12-23 15:07:41,092 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62f87c44]
+2023-12-23 15:07:41,093 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1660451908 to pool.

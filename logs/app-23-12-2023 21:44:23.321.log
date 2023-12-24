@@ -1,0 +1,12 @@
+2023-12-23 21:44:23,928 DEBUG o.a.i.l.LogFactory [main] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-12-23 21:44:23,937 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 21:44:23,937 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 21:44:23,938 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 21:44:23,938 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 21:44:24,035 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 21:44:24,051 DEBUG o.a.i.d.p.PooledDataSource [main] Created connection 322830747.
+2023-12-23 21:44:24,054 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT z.id AS zoo_id, z.name AS zoo_name, z.customers_capacity AS zoo_customers_capacity,d.id AS department_id, d.name AS department_name, ar.id AS animal_room_id, ar.name AS animal_room_name, ar.capacity AS animal_room_capacity FROM zoos AS z LEFT JOIN animal_rooms AS ar ON ar.zoos_id = z.id LEFT JOIN departments AS d ON d.zoos_id = z.id WHERE z.id = 2
+2023-12-23 21:44:24,077 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 21:44:24,098 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==      Total: 6
+2023-12-23 21:44:24,101 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@133e019b]
+2023-12-23 21:44:24,101 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 322830747 to pool.

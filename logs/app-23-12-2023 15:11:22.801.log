@@ -1,0 +1,21 @@
+2023-12-23 15:11:23,424 DEBUG o.a.i.l.LogFactory [main] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-12-23 15:11:23,433 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:11:23,433 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:11:23,433 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:11:23,434 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:11:23,519 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 15:11:23,535 DEBUG o.a.i.d.p.PooledDataSource [main] Created connection 1363800072.
+2023-12-23 15:11:23,538 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO zoos(name,customers_capacity) VALUES (?,?)
+2023-12-23 15:11:23,564 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: California Zoo(String), 450(Integer)
+2023-12-23 15:11:23,569 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==    Updates: 1
+2023-12-23 15:11:23,570 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT LAST_INSERT_ID() AS id
+2023-12-23 15:11:23,571 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 15:11:23,589 DEBUG o.a.i.l.j.BaseJdbcLogger [main] <==      Total: 1
+2023-12-23 15:11:23,593 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5149f008]
+2023-12-23 15:11:23,593 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1363800072 to pool.
+2023-12-23 15:11:23,595 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 15:11:23,595 DEBUG o.a.i.d.p.PooledDataSource [main] Checked out connection 1363800072 from pool.
+2023-12-23 15:11:23,596 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: INSERT INTO animal_rooms(name,capacity,zoos_id) VALUES (?, ?, ?)
+2023-12-23 15:11:23,599 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: Aquatic(String), 200(Integer), 1(Long)
+2023-12-23 15:11:23,618 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5149f008]
+2023-12-23 15:11:23,618 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 1363800072 to pool.

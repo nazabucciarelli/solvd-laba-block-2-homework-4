@@ -1,0 +1,12 @@
+2023-12-23 15:24:36,885 INFO c.s.a.s.ZooService [main] Departments from the zoo with id 7
+2023-12-23 15:24:36,964 DEBUG o.a.i.l.LogFactory [main] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2023-12-23 15:24:36,973 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:24:36,973 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:24:36,974 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:24:36,974 DEBUG o.a.i.d.p.PooledDataSource [main] PooledDataSource forcefully closed/removed all connections.
+2023-12-23 15:24:37,080 DEBUG o.a.i.t.j.JdbcTransaction [main] Opening JDBC Connection
+2023-12-23 15:24:37,099 DEBUG o.a.i.d.p.PooledDataSource [main] Created connection 248483913.
+2023-12-23 15:24:37,102 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==>  Preparing: SELECT id, name, zoos_id FROM departments
+2023-12-23 15:24:37,127 DEBUG o.a.i.l.j.BaseJdbcLogger [main] ==> Parameters: 
+2023-12-23 15:24:37,149 DEBUG o.a.i.t.j.JdbcTransaction [main] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@ecf9049]
+2023-12-23 15:24:37,149 DEBUG o.a.i.d.p.PooledDataSource [main] Returned connection 248483913 to pool.
